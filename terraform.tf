@@ -1,29 +1,3 @@
-# resource "local_file" "firstfile" {
-#   content  = "Learning terraform is fun!"
-#   filename = "firstfile.txt"
-# }
-
-
-# resource "random_string" "firststring" {
-#   length  = 10
-#   special = false
-#   upper   = false
-#   lower   = true
-#   numeric = true
-
-# }
-
-# resource "random_pet" "practicevariables" {
-#   length    = 8
-#   prefix    = var.prefix_tuple[2]
-#   separator = "-"
-
-# }
-
-# provision a vm with terraform code in azure portal
-
-# provision a vnet in the resource group
-
 resource "azurerm_resource_group" "mainrg" {
   name     = "mainrg"
   location = "canada central"
@@ -108,12 +82,6 @@ resource "local_file" "private_key" {
   content  = trimspace(tls_private_key.mainsshkeys.private_key_pem)
   filename = "${path.module}/private_key.pem"
 }
-
-# Path to ssh key public key
-# resource "local_file" "public_key" {
-#   content  = trimspace(tls_private_key.mainsshkeys.public_key_openssh)
-#   filename = "${path.module}/public_key.pub"
-# }
 
 # provision a key vault to store the ssh keys
 resource "azurerm_key_vault" "mainchinwekv" {

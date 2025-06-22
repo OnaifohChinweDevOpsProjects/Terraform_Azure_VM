@@ -71,4 +71,6 @@ Sensitive Data: Data sources are used to fetch credentials/secrets instead of ha
 
 ℹ️ General Notes
 Run all commands from the directory containing your Terraform files (main.tf or terraform.tf - for me)
-Review the plan carefully before applying
+Review the plan carefully before applying...
+
+🙋‍♂️ Author Chinwe Ebube Onaifoh 📫 onaifohchinwe094@gmail.com 📞 +1 (437) 473-4649 📍 Ajax, Ontario, Canada

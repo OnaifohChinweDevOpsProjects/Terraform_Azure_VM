@@ -17,6 +17,8 @@ Contains the primary infrastructure configuration, defining the resources that n
 - **Resource Group** (`azurerm_resource_group`)
 - **Virtual Network** (`azurerm_virtual_network`)
 - **Subnet** (`azurerm_subnet`)
+- **Key Vault** (`azurerm_key_vault`)
+- **Key Vault secret** (`azurerm_key_vault_secret`)
 - **Network Security Group** (`azurerm_network_security_group`)
 - **Network Security Rules** (`azurerm_network_security_rule`)
 - **Public IP Address** (`azurerm_public_ip`)

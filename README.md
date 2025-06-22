@@ -60,10 +60,12 @@ on your bash terminal:
 - terraform apply -- Creates the actual infrastructure (In this case, Azure Portal)
 
 🧹 Clean Up
+
 #4. **💥 Destroy Infrastructure**
 - terraform destroy -- Removes all created resources
 
 🔒 Security Notes
+
 📝 ❗ Important Implementation Details
 
 SSH Key Storage: SSH keys are securely stored in Azure Key Vault to prevent accidental exposure
@@ -75,4 +77,8 @@ Sensitive Data: Data sources are used to fetch credentials/secrets instead of ha
 Run all commands from the directory containing your Terraform files (main.tf or terraform.tf - for me)
 Review the plan carefully before applying...
 
-🙋‍♂️ Author Chinwe Ebube Onaifoh 📫 onaifohchinwe094@gmail.com 📞 +1 (437) 473-4649 📍 Ajax, Ontario, Canada
+🙋‍♂️ Author 
+
+Chinwe Ebube Onaifoh 
+
+📫 onaifohchinwe094@gmail.com 📞 +1 (437) 473-4649 📍 Ajax, Ontario, Canada
